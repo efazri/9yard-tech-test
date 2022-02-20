@@ -9,8 +9,8 @@ function SidebarMenu() {
 
   return (
     <ProSidebar collapsed={false} className="h-100">
-        <h1 className='text-center text-2xl mb-12'>Hi Recruiter!</h1>
-        <Menu iconShape="square">
+        <h1 className='text-center text-2xl mb-12 mt-12'>Hi Recruiter!</h1>
+        <Menu iconShape="square" className='p-2'>
             <MenuItem className='font-bold' onClick={() => navigate('/')}>Home</MenuItem>
             <MenuItem className='font-bold' onClick={() => navigate('/active-jobs')}>Active Jobs</MenuItem>
             <MenuItem className='font-bold' onClick={() => navigate('/archived-jobs')}>Archived Jobs</MenuItem>
