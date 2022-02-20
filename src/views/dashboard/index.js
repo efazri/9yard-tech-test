@@ -232,6 +232,7 @@ function Dashboard (){
                 completedCount={completedCount}
                 data={data}
                 tabSectionHandler={tabSectionHandler}
+                currentTab={currentTab}
             />
 
             <Table 
