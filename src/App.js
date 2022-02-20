@@ -1,8 +1,7 @@
 import './App.css';
 import React from 'react';
-import { MobileNav, Sidebar } from './components'
-import Dashboard from './views/dashboard/index'
-import Views from './views/index'
+import { MobileNav, Sidebar } from './components';
+import Views from './views/index';
 
 function App() {
   return (

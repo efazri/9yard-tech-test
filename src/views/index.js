@@ -1,6 +1,6 @@
-import React, { lazy } from "react";
-import { Routes, Route, Link } from "react-router-dom";
-import Dashboard from "./dashboard"
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Dashboard from "./dashboard";
 import Settings from "./settings";
 import ArchivedJobs from "./archived-jobs";
 import ActiveJobs from "./active-jobs";
