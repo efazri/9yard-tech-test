@@ -32,3 +32,37 @@
 .App-link {
   color: #61dafb;
 }
+
+.bg-gray {
+  background-color: #f2f2f2;
+}
+
+.outline-green {
+  border-color: #07e494 !important;
+  border-width: 2px;
+}
+
+.outline-tomato {
+  border-color: #e34602 !important;
+  border-width: 2px;
+}
+
+.font-secondary {
+  color: #07e494;
+}
+
+.font-tomato {
+  color: #e34602;
+}
+
+.bg-green {
+  background-color: #07e494 !important;
+}
+
+.bg-orange {
+  background-color: #ffb526 !important;
+}
+
+.bg-tomato {
+  background-color: #e34602 !important;
+}
