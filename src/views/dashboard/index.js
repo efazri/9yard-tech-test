@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Card from './components/score-card';
-import Table from './components/table-list';
-import TabSection from './components/tab-section';
-import InsightCard from "./components/insight-card";
+import { Header, InsightCard, ScoreCard, Table, TabSection } from './components';
 
 const data = [
     { 
@@ -191,7 +188,7 @@ function Dashboard (){
 
     return (
         <div className="flex flex-col p-5 w-full">
-
+            <Header />
             <h1 className="mt-5">Insights</h1>
             <div className="flex flex-col md:flex-row justify-between w-full lg:w-3/5">
                 {
@@ -208,21 +205,21 @@ function Dashboard (){
             </div>
 
             <div className="flex flex-col md:flex-row mt-5">
-                <Card 
+                <ScoreCard 
                     data={data}
                     title={"Top Profile Match"}
                     type="profile"
                     onAction={onActionHandler}
                 />
 
-                <Card 
+                <ScoreCard 
                     data={data}
                     title={"Top Logical Score"}
                     type="logical"
                     onAction={onActionHandler}
                 />
 
-                <Card 
+                <ScoreCard 
                     data={data}
                     title={"Top Critical Score"}
                     type="critical"
